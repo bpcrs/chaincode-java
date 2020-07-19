@@ -2,14 +2,15 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.hyperledger.fabric.samples.fabcar;
+package fpt.edu.bpcrs.contract;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import fpt.edu.bpcrs.contract.model.Car;
+import fpt.edu.bpcrs.contract.model.CarQueryResult;
 import org.hyperledger.fabric.contract.Context;
 import org.hyperledger.fabric.contract.ContractInterface;
-import org.hyperledger.fabric.contract.annotation.Contact;
 import org.hyperledger.fabric.contract.annotation.Contract;
 import org.hyperledger.fabric.contract.annotation.Default;
 import org.hyperledger.fabric.contract.annotation.Info;
@@ -22,23 +23,17 @@ import org.hyperledger.fabric.shim.ledger.QueryResultsIterator;
 
 import com.owlike.genson.Genson;
 
-/**
- * Java implementation of the Fabric Car Contract described in the Writing Your
- * First Application tutorial
- */
+
 @Contract(
-        name = "FabCar",
+        name = "PersonalCarRentingSystem",
         info = @Info(
-                title = "FabCar contract",
-                description = "The hyperlegendary car contract",
+                title = "PersonalCarRentingSystem contract",
+                description = "The hyperlegendary contract",
                 version = "0.0.1-SNAPSHOT",
                 license = @License(
                         name = "Apache 2.0 License",
-                        url = "http://www.apache.org/licenses/LICENSE-2.0.html"),
-                contact = @Contact(
-                        email = "f.carr@example.com",
-                        name = "F Carr",
-                        url = "https://hyperledger.example.com")))
+                        url = "http://www.apache.org/licenses/LICENSE-2.0.html")
+               ))
 @Default
 public final class FabCar implements ContractInterface {
 
@@ -60,7 +55,6 @@ public final class FabCar implements ContractInterface {
     public Car queryCar(final Context ctx, final String key) {
         ChaincodeStub stub = ctx.getStub();
         String carState = stub.getStringState(key);
-
         if (carState.isEmpty()) {
             String errorMessage = String.format("Car %s does not exist", key);
             System.out.println(errorMessage);
@@ -168,7 +162,7 @@ public final class FabCar implements ContractInterface {
      * @return the updated Car
      */
     @Transaction()
-    public Car changeCarOwner(final Context ctx, final String key, final String newOwner) {
+    public CarQueryResult changeCarOwner(final Context ctx, final String key, final String newOwner) {
         ChaincodeStub stub = ctx.getStub();
 
         String carState = stub.getStringState(key);
@@ -184,8 +178,13 @@ public final class FabCar implements ContractInterface {
         Car newCar = new Car(car.getMake(), car.getModel(), car.getColor(), newOwner);
         String newCarState = genson.serialize(newCar);
         stub.putStringState(key, newCarState);
+        return new CarQueryResult(key, newCar);
+    }
 
-        return newCar;
+    @Transaction
+    public Contract submitContract(final Context ctx, final String contract) {
+        ChaincodeStub stub = ctx.getStub();
+        return null;
     }
 
 }

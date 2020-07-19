@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e0438f9-cb8c-482e-828b-64bff2fbc0fc" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="0e0438f9-cb8c-482e-828b-64bff2fbc0fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/samples/fabcar/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/samples/fabcar/CarQueryResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/model/CarQueryResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/samples/fabcar/FabCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/FabCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/hyperledger/fabric/samples/fabcar/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fpt/edu/bpcrs/contract/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/hyperledger/fabric/samples/fabcar/FabCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fpt/edu/bpcrs/contract/FabCarTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,16 +23,62 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chaincode" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chaincode" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chaincode" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cFaSGSaENutsjGilW2EyjP5v5j" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -31,17 +87,91 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager" selected="Gradle.chaincode-java [installDist]">
+    <configuration name="Equality.isSymmetric" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;fpt.edu.bpcrs.contract.CarTest$Equality.isSymmetric&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FabCarTest.invokeUnknownTransaction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;fpt.edu.bpcrs.contract.FabCarTest.invokeUnknownTransaction&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="chaincode-java [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="chaincode-java [installDist]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="installDist" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Gradle.chaincode-java [installDist]" />
+        <item itemvalue="Gradle.chaincode-java [build]" />
+        <item itemvalue="Gradle.FabCarTest.invokeUnknownTransaction" />
+        <item itemvalue="Gradle.Equality.isSymmetric" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,28 +186,71 @@
       <workItem from="1590126800810" duration="1734000" />
       <workItem from="1590131763276" duration="246000" />
       <workItem from="1590165493166" duration="164000" />
+      <workItem from="1590197310708" duration="562000" />
+      <workItem from="1590337555449" duration="53000" />
+      <workItem from="1591073082530" duration="3106000" />
+      <workItem from="1591672848995" duration="1075000" />
+      <workItem from="1595140938940" duration="2276000" />
+      <workItem from="1595147574564" duration="216000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1591074477333">
+      <screen x="0" y="23" width="1920" height="1110" />
+    </state>
+    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1110@0.23.1920.1110" timestamp="1591074477333" />
+    <state x="776" y="249" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591074068000">
+      <screen x="0" y="23" width="1920" height="1110" />
+    </state>
+    <state x="776" y="249" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1110@0.23.1920.1110" timestamp="1591074068000" />
+    <state x="465" y="23" key="CommitChangelistDialog2" timestamp="1591073328452">
+      <screen x="0" y="23" width="1920" height="1110" />
+    </state>
+    <state x="465" y="23" key="CommitChangelistDialog2/0.23.1920.1110@0.23.1920.1110" timestamp="1591073328452" />
+    <state width="1878" height="273" key="GridCell.Tab.0.bottom" timestamp="1595147717676">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721530" />
+    <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1595147717676" />
+    <state width="1878" height="273" key="GridCell.Tab.0.center" timestamp="1595147717675">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="273" key="GridCell.Tab.0.center/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721529" />
+    <state width="1878" height="273" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1595147717675" />
+    <state width="1878" height="273" key="GridCell.Tab.0.left" timestamp="1595147717675">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="273" key="GridCell.Tab.0.left/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721528" />
+    <state width="1878" height="273" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1595147717675" />
+    <state width="1878" height="273" key="GridCell.Tab.0.right" timestamp="1595147717676">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="273" key="GridCell.Tab.0.right/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721529" />
+    <state width="1878" height="273" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1595147717676" />
+    <state x="625" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1591074442575">
+      <screen x="0" y="23" width="1920" height="1110" />
+    </state>
+    <state x="625" y="249" width="670" height="676" key="search.everywhere.popup/0.23.1920.1110@0.23.1920.1110" timestamp="1591074442575" />
   </component>
 </project>

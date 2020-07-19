@@ -2,10 +2,11 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.hyperledger.fabric.samples.fabcar;
+package fpt.edu.bpcrs.contract;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import fpt.edu.bpcrs.contract.model.Car;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 

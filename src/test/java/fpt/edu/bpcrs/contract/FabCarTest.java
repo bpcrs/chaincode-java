@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.hyperledger.fabric.samples.fabcar;
+package fpt.edu.bpcrs.contract;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.ThrowableAssert.catchThrowable;
@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import fpt.edu.bpcrs.contract.model.Car;
+import fpt.edu.bpcrs.contract.model.CarQueryResult;
 import org.hyperledger.fabric.contract.Context;
 import org.hyperledger.fabric.shim.ChaincodeException;
 import org.hyperledger.fabric.shim.ChaincodeStub;
@@ -237,7 +239,7 @@ public final class FabCarTest {
             when(stub.getStringState("CAR0"))
                     .thenReturn("{\"color\":\"blue\",\"make\":\"Toyota\",\"model\":\"Prius\",\"owner\":\"Tomoko\"}");
 
-            Car car = contract.changeCarOwner(ctx, "CAR0", "Dr Evil");
+            CarQueryResult car = contract.changeCarOwner(ctx, "CAR0", "Dr Evil");
 
             assertThat(car).isEqualTo(new CarQueryResult("CAR0", new Car("Toyota", "Prius", "blue", "Dr Evil")));
         }

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="fpt.edu.bpcrs.contract.FabCarTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-07-19T08:35:27" hostname="Jeremy.local" time="1.863">
-  <properties/>
-  <testcase name="invokeQueryAllCarsTransaction()" classname="fpt.edu.bpcrs.contract.FabCarTest" time="1.812"/>
-  <testcase name="invokeInitLedgerTransaction()" classname="fpt.edu.bpcrs.contract.FabCarTest" time="0.039"/>
-  <testcase name="invokeUnknownTransaction()" classname="fpt.edu.bpcrs.contract.FabCarTest" time="0.01"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

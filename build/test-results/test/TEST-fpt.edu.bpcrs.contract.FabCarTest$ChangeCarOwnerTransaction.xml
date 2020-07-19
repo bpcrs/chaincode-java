@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="fpt.edu.bpcrs.contract.FabCarTest$ChangeCarOwnerTransaction" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-07-19T08:35:29" hostname="Jeremy.local" time="0.018">
-  <properties/>
-  <testcase name="whenCarExists()" classname="fpt.edu.bpcrs.contract.FabCarTest$ChangeCarOwnerTransaction" time="0.004"/>
-  <testcase name="whenCarDoesNotExist()" classname="fpt.edu.bpcrs.contract.FabCarTest$ChangeCarOwnerTransaction" time="0.012"/>
-  <system-out><![CDATA[Car CAR0 does not exist
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

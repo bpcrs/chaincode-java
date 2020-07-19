@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e0438f9-cb8c-482e-828b-64bff2fbc0fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,28 +28,22 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="chaincode" type="f1a62948:ProjectNode" />
+                <item name="agreement" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="chaincode" type="f1a62948:ProjectNode" />
+                <item name="agreement" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="chaincode" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="chaincode" type="f1a62948:ProjectNode" />
+                <item name="agreement" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build setup" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="chaincode" type="f1a62948:ProjectNode" />
+                <item name="agreement" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="distribution" type="c8890929:TasksNode$1" />
               </path>
@@ -85,10 +82,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle installDist" />
+    </option>
   </component>
   <component name="RunManager" selected="Gradle.chaincode-java [installDist]">
     <configuration name="Equality.isSymmetric" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -194,7 +197,7 @@
       <workItem from="1591073082530" duration="3106000" />
       <workItem from="1591672848995" duration="1075000" />
       <workItem from="1595140938940" duration="2276000" />
-      <workItem from="1595147574564" duration="700000" />
+      <workItem from="1595147574564" duration="1393000" />
     </task>
     <servers />
   </component>
@@ -219,6 +222,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="641" y="190" key="#chaincode-java_[installDist]" timestamp="1595148510629">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="641" y="190" key="#chaincode-java_[installDist]/0.23.1920.1177@0.23.1920.1177" timestamp="1595148510629" />
     <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1591074477333">
       <screen x="0" y="23" width="1920" height="1110" />
     </state>
@@ -231,26 +238,34 @@
       <screen x="0" y="23" width="1920" height="1110" />
     </state>
     <state x="465" y="23" key="CommitChangelistDialog2/0.23.1920.1110@0.23.1920.1110" timestamp="1591073328452" />
-    <state width="1878" height="273" key="GridCell.Tab.0.bottom" timestamp="1595148361626">
+    <state width="1878" height="273" key="GridCell.Tab.0.bottom" timestamp="1595149145239">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721530" />
-    <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1595148361626" />
-    <state width="1878" height="273" key="GridCell.Tab.0.center" timestamp="1595148361626">
+    <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1595149145239" />
+    <state width="1878" height="273" key="GridCell.Tab.0.center" timestamp="1595149145238">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="273" key="GridCell.Tab.0.center/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721529" />
-    <state width="1878" height="273" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1595148361626" />
-    <state width="1878" height="273" key="GridCell.Tab.0.left" timestamp="1595148361626">
+    <state width="1878" height="273" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1595149145238" />
+    <state width="1878" height="273" key="GridCell.Tab.0.left" timestamp="1595149145237">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="273" key="GridCell.Tab.0.left/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721528" />
-    <state width="1878" height="273" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1595148361626" />
-    <state width="1878" height="273" key="GridCell.Tab.0.right" timestamp="1595148361626">
+    <state width="1878" height="273" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1595149145237" />
+    <state width="1878" height="273" key="GridCell.Tab.0.right" timestamp="1595149145238">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="273" key="GridCell.Tab.0.right/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721529" />
-    <state width="1878" height="273" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1595148361626" />
+    <state width="1878" height="273" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1595149145238" />
+    <state x="461" y="172" key="SettingsEditor" timestamp="1595149143504">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="461" y="172" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1595149143504" />
+    <state x="625" y="246" width="670" height="675" key="run.anything.popup" timestamp="1595148653669">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="625" y="246" width="670" height="675" key="run.anything.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1595148653669" />
     <state x="625" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1591074442575">
       <screen x="0" y="23" width="1920" height="1110" />
     </state>

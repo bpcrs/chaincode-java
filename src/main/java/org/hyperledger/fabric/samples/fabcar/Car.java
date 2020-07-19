@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package fpt.edu.bpcrs.contract;
+package org.hyperledger.fabric.samples.fabcar;
 
 import java.util.Objects;
 

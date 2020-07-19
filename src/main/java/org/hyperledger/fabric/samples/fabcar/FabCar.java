@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package fpt.edu.bpcrs.contract;
+package org.hyperledger.fabric.samples.fabcar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -116,7 +116,7 @@ public final class FabCar implements ContractInterface {
      */
     @Transaction()
     public Car createCar(final Context ctx, final String key, final String make, final String model,
-                         final String color, final String owner) {
+            final String color, final String owner) {
         ChaincodeStub stub = ctx.getStub();
 
         String carState = stub.getStringState(key);

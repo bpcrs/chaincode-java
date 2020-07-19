@@ -1,4 +1,4 @@
-package fpt.edu.bpcrs.contract.model;
+package fpt.edu.bpcrs.contract;
 
 public enum StatusEnum {
     PROCESSING("PROCESSING"),

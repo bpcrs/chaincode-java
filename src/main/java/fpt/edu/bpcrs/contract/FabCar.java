@@ -7,8 +7,6 @@ package fpt.edu.bpcrs.contract;
 import java.util.ArrayList;
 import java.util.List;
 
-import fpt.edu.bpcrs.contract.model.Car;
-import fpt.edu.bpcrs.contract.model.CarQueryResult;
 import org.hyperledger.fabric.contract.Context;
 import org.hyperledger.fabric.contract.ContractInterface;
 import org.hyperledger.fabric.contract.annotation.Contact;

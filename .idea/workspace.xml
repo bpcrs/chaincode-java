@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e0438f9-cb8c-482e-828b-64bff2fbc0fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/FabCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/FabCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/model/Agreement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/Agreement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/model/CarQueryResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/CarQueryResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/model/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/model/StatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fpt/edu/bpcrs/contract/StatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fpt/edu/bpcrs/contract/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fpt/edu/bpcrs/contract/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fpt/edu/bpcrs/contract/FabCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fpt/edu/bpcrs/contract/FabCarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +196,7 @@
       <workItem from="1591073082530" duration="3106000" />
       <workItem from="1591672848995" duration="1075000" />
       <workItem from="1595140938940" duration="2276000" />
-      <workItem from="1595147574564" duration="3773000" />
+      <workItem from="1595147574564" duration="4510000" />
     </task>
     <task id="LOCAL-00001" summary="update gradle">
       <created>1595149278635</created>

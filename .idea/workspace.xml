@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e0438f9-cb8c-482e-828b-64bff2fbc0fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/samples/fabcar/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/bpcrs/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/samples/fabcar/CarQueryResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/bpcrs/CarQueryResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/samples/fabcar/FabCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/bpcrs/FabCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/hyperledger/fabric/samples/fabcar/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/hyperledger/fabric/bpcrs/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/hyperledger/fabric/samples/fabcar/FabCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/hyperledger/fabric/bpcrs/FabCarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,22 +27,22 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="fabcar" type="f1a62948:ProjectNode" />
+                <item name="agreements" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="fabcar" type="f1a62948:ProjectNode" />
+                <item name="agreements" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="fabcar" type="f1a62948:ProjectNode" />
+                <item name="agreements" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build setup" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="fabcar" type="f1a62948:ProjectNode" />
+                <item name="agreements" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="distribution" type="c8890929:TasksNode$1" />
               </path>
@@ -203,7 +197,7 @@
       <workItem from="1591073082530" duration="3106000" />
       <workItem from="1591672848995" duration="1075000" />
       <workItem from="1595140938940" duration="2276000" />
-      <workItem from="1595147574564" duration="7074000" />
+      <workItem from="1595147574564" duration="7464000" />
     </task>
     <task id="LOCAL-00001" summary="update gradle">
       <created>1595149278635</created>
@@ -262,26 +256,26 @@
     </state>
     <state x="465" y="23" key="CommitChangelistDialog2/0.23.1920.1110@0.23.1920.1110" timestamp="1591073328452" />
     <state x="465" y="23" key="CommitChangelistDialog2/0.23.1920.1177@0.23.1920.1177" timestamp="1595149534156" />
-    <state width="1878" height="273" key="GridCell.Tab.0.bottom" timestamp="1595149145239">
+    <state width="1878" height="273" key="GridCell.Tab.0.bottom" timestamp="1595252346110">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721530" />
-    <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1595149145239" />
-    <state width="1878" height="273" key="GridCell.Tab.0.center" timestamp="1595149145238">
+    <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1595252346110" />
+    <state width="1878" height="273" key="GridCell.Tab.0.center" timestamp="1595252346110">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="273" key="GridCell.Tab.0.center/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721529" />
-    <state width="1878" height="273" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1595149145238" />
-    <state width="1878" height="273" key="GridCell.Tab.0.left" timestamp="1595149145237">
+    <state width="1878" height="273" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1595252346110" />
+    <state width="1878" height="273" key="GridCell.Tab.0.left" timestamp="1595252346109">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="273" key="GridCell.Tab.0.left/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721528" />
-    <state width="1878" height="273" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1595149145237" />
-    <state width="1878" height="273" key="GridCell.Tab.0.right" timestamp="1595149145238">
+    <state width="1878" height="273" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1595252346109" />
+    <state width="1878" height="273" key="GridCell.Tab.0.right" timestamp="1595252346110">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="273" key="GridCell.Tab.0.right/0.23.1920.1110@0.23.1920.1110" timestamp="1591077721529" />
-    <state width="1878" height="273" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1595149145238" />
+    <state width="1878" height="273" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1595252346110" />
     <state x="461" y="172" key="SettingsEditor" timestamp="1595149143504">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>

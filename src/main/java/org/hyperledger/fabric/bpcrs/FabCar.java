@@ -27,11 +27,11 @@ import com.owlike.genson.Genson;
  * First Application tutorial
  */
 @Contract(
-        name = "FabCar",
+        name = "Agreements",
         info = @Info(
                 title = "FabCar contract",
                 description = "The hyperlegendary car contract",
-                version = "0.0.1-SNAPSHOT",
+                version = "1.0-SNAPSHOT",
                 license = @License(
                         name = "Apache 2.0 License",
                         url = "http://www.apache.org/licenses/LICENSE-2.0.html"),

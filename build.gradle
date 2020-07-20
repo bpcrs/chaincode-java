@@ -44,13 +44,6 @@ checkstyleTest {
 }
 
 jacocoTestCoverageVerification {
-    afterEvaluate {
-        classDirectories = files(classDirectories.files.collect {
-            fileTree(dir: it, exclude:  [
-                    'org/hyperledger/fabric/samples/fabcar/Start.*'
-            ])
-        })
-    }
     violationRules {
         rule {
             limit {

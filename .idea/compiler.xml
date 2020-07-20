@@ -5,6 +5,9 @@
       <module name="agreement" target="1.8" />
       <module name="agreement.main" target="1.8" />
       <module name="agreement.test" target="1.8" />
+      <module name="agreements" target="1.8" />
+      <module name="agreements.main" target="1.8" />
+      <module name="agreements.test" target="1.8" />
       <module name="chaincode" target="1.8" />
       <module name="chaincode.main" target="1.8" />
       <module name="chaincode.test" target="1.8" />
